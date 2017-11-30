@@ -4,6 +4,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.4.
 
+## Refreshing Meetups
+
+Call
+[this cloud function hook](https://us-central1-gdg-website-master.cloudfunctions.net/refreshMeetupEvents)
+to refresh the meetups.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically
