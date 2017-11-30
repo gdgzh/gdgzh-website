@@ -14,7 +14,7 @@
     "ci": "bin/fix && ng test --single-run --progress false --code-coverage"
   },
   "private": false,
-  "repository": "lukaselmer/gdgzh-website",
+  "repository": "gdgzh/gdgzh-website",
   "dependencies": {
     "@angular/animations": "^5.0.1",
     "@angular/cdk": "5.0.0-rc.1",

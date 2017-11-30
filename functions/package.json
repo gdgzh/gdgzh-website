@@ -17,7 +17,7 @@
     "request-promise": "^4.2.2"
   },
   "private": false,
-  "repository": "lukaselmer/gdgzh-website",
+  "repository": "gdgzh/gdgzh-website",
   "devDependencies": {
     "@types/request-promise": "^4.1.39",
     "ts-loader": "^3.0.5",
