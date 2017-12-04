@@ -1,10 +1,13 @@
-$nav-height: 57px;
+@import 'src/gw-theme';
+$nav-height: 67px;
 
 main {
   min-height: 500px;
-  padding-top: $nav-height;
+
+  background: mat-color($gw-app-primary);
 
   @media screen {
-    padding: $nav-height 25px 30px 25px;
+    margin-top: $nav-height;
+    padding: 20px 25px 30px 25px;
   }
 }

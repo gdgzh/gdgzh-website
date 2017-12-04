@@ -4,8 +4,10 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue.
+
+// TODO: get official GDG colors
 $gw-app-primary: mat-palette($mat-blue);
-$gw-app-accent: mat-palette($mat-yellow);
+$gw-app-accent: mat-palette($mat-red);
 
 // The warn palette is optional (defaults to red).
 $gw-app-warn: mat-palette($mat-red);
