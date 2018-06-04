@@ -8,6 +8,7 @@ const store = admin.firestore();
 exports.refreshMeetupEvents = functions.https.onRequest(async (request, response) => {
   try {
     const events = await fetchMeetupEvents();
+    console.log(events[0]);
     const promises = events.map(event =>
       store
         .collection('events')

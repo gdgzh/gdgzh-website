@@ -2,7 +2,7 @@
 
 npm i
 
-echo 'Checking if gdgzh-website.dev is in /etc/hosts'
-grep 'gdgzh-website.dev' /etc/hosts || echo '127.0.0.1 gdgzh-website.dev' | sudo tee -a /etc/hosts
+echo 'Checking if gdgzh-website.test is in /etc/hosts'
+grep 'gdgzh-website.test' /etc/hosts || echo '127.0.0.1 gdgzh-website.test' | sudo tee -a /etc/hosts
 which mdl || gem install mdl
 ln -s ../../bin/fix .git/hooks/pre-commit
